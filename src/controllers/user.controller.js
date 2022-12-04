@@ -411,7 +411,6 @@ const requestFriend = async (req, res, next) => {
       ],
     });
     if (friendship) {
-      console.log('friendship', friendship);
       throw new Error('You are in the friendship! Pls reload website!!!');
     }
 
